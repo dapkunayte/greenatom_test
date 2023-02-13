@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "greenatom-test"
+version = "0.1.0"
+description = ""
+authors = ["Borovskoy Aleksey <gladiatormahotina@yandex.ru>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.11.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
